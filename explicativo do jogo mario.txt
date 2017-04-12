@@ -1,0 +1,18 @@
+
+"Tenta me pegar"  do Mário !!
+
+Este jogo foi criado com base na última aula dada pelo professor Chiquitto.
+Utilizamos a ferramentas sprite para criar efeitos de movimento e setTimeout.
+
+ A explicação do jogo é bem simples:
+
+Basta voçê tentar pegar o Mario com clique do mouse . É esta a intenção do jogo.
+**  Agora se voçê utilizar Tela de toque fica muito fácil.
+*Para testar a sua habilidade, foi colocado no centro da tela ,um cronômetro para 
+para te deixar um pouco mais tenso.
+
+
+
+
+
+

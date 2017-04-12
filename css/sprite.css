@@ -1,0 +1,78 @@
+
+body{
+  background-image: url(../img/wall-41.jpg);
+
+
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#tela {
+  /*border: 5px solid #000;*/
+
+  box-sizing: content-box;
+  height: 549px;
+  margin: 0px auto 0 auto;
+  position: relative;
+  width: 1250px;
+}
+
+#mario {
+  background-image: url(../img/MarioLuigi.gif);
+  background-repeat: no-repeat;
+  /* transform: scaleX(-1); */
+  bottom: 0;
+  display: block;
+  height: 28px;
+  left: 0;
+  position: absolute;
+  width: 20px;
+}
+
+#mario.mario_1 {
+  background-position: -124px -205px;
+}
+#mario.mario_2 {
+  background-position: -164px -205px;
+  bottom: 1px;
+}
+#mario.mario_3 {
+  background-position: -204px -205px;
+}
+*{
+  margin:0;
+  padding:0;
+  }
+
+body{
+  
+  color:#FFF;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align:center;
+  }
+#topo{
+  background:#069;
+  height:100px;
+  line-height:100px;
+  border-bottom:2px solid #006;
+  }
+h2 a{
+  color:#069;
+  text-decoration:none;
+  }
+h2 a:hover{
+  color:#006;
+  }
+input{
+  background:#ccc;
+  width:600px;
+  height:200px;
+  line-height:200px;
+  font-size:150px;
+  border:none;
+  }
+
+
