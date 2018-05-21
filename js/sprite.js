@@ -6,17 +6,27 @@ var direcaoX = 1;
 var marioOrdemAndar =[1,3,2,3];// modo de andar
 var marioSprite = 0;
 
-var fps = 10000/10000;
+var fps = 60;
 
 function init() {
   mario = document.getElementById('mario');
-
+ var x = document.getElementsByTagName("BODY")[0];
+var marioclick = 0;
   mario.onclick = function(){  // muda de direcao com clique
   	marioMudaDirecao();
+marioclick = 1
   	window.alert("SERÁ QUE VOCÊ ME PEGA DE NOVO ?? ");
-	window.alert("VOCÊ É PERSISTENTE HEIN!!");
-	cont=setTimeout("alert('NÃO CANSOU AINDA? KKKK !')", 4000)     
+	window.alert("VOCÊ É PERSISTENTE HEIN!!");    
+	}
+	x.onclick = function(){
+if(marioclick == 0){
+		alert('Errou!!')
+}else{
+marioclick = 0
 }
+
+
+	}
   frame();
 }
 window.onload = init;
@@ -80,7 +90,6 @@ function tempo(){
       }
    form.cronometro.value = hora +":"+ minuto +":"+ segundo
 }
-
 
 
 
